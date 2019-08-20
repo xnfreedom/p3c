@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ruleset name="p3c_high_priority"
+    xmlns="http://pmd.sourceforge.net/ruleset/2.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://pmd.sourceforge.net/ruleset/2.0.0 https://pmd.sourceforge.io/ruleset_2_0_0.xsd">
+
+  <description>
+      Rules specific to 1/2 priority
+  </description>
+
+    <!-- Rules, that have been moved into a category -->
+<rule ref="rulesets/java/ali-comment.xml/EnumConstantsMustHaveCommentRule" deprecated="true" />
+<rule ref="rulesets/java/ali-concurrent.xml/ThreadPoolCreationRule" deprecated="true" />
+<rule ref="rulesets/java/ali-concurrent.xml/AvoidUseTimerRule" deprecated="true" />
+<rule ref="rulesets/java/ali-concurrent.xml/AvoidManuallyCreateThreadRule" deprecated="true" />
+<rule ref="rulesets/java/ali-concurrent.xml/ThreadShouldSetNameRule" deprecated="true" />
+<rule ref="rulesets/java/ali-concurrent.xml/AvoidCallStaticSimpleDateFormatRule" deprecated="true" />
+<rule ref="rulesets/java/ali-concurrent.xml/ThreadLocalShouldRemoveRule" deprecated="true" />
+<rule ref="rulesets/java/ali-constant.xml/UpperEllRule" deprecated="true" />
+<rule ref="rulesets/java/ali-exception.xml/AvoidReturnInFinallyRule" deprecated="true" />
+<rule ref="rulesets/java/ali-flowcontrol.xml/SwitchStatementRule" deprecated="true" />
+<rule ref="rulesets/java/ali-flowcontrol.xml/NeedBraceRule" deprecated="true" />
+<rule ref="rulesets/java/ali-naming.xml/AbstractClassShouldStartWithAbstractNamingRule" deprecated="true" />
+<rule ref="rulesets/java/ali-naming.xml/ExceptionClassShouldEndWithExceptionRule" deprecated="true" />
+<rule ref="rulesets/java/ali-naming.xml/LowerCamelCaseVariableNamingRule" deprecated="true" />
+<rule ref="rulesets/java/ali-naming.xml/AvoidStartWithDollarAndUnderLineNamingRule" deprecated="true" />
+<rule ref="rulesets/java/ali-naming.xml/ConstantFieldShouldBeUpperCaseRule" deprecated="true" />
+<rule ref="rulesets/java/ali-naming.xml/ServiceOrDaoClassShouldEndWithImplRule" deprecated="true" />
+<rule ref="rulesets/java/ali-naming.xml/BooleanPropertyShouldNotStartWithIsRule" deprecated="true" />
+<rule ref="rulesets/java/ali-oop.xml/EqualsAvoidNullRule" deprecated="true" />
+<rule ref="rulesets/java/ali-oop.xml/WrapperTypeEqualityRule" deprecated="true" />
+<rule ref="rulesets/java/ali-other.xml/AvoidPatternCompileInMethodRule" deprecated="true" />
+<rule ref="rulesets/java/ali-other.xml/AvoidApacheBeanUtilsCopyRule" deprecated="true" />
+<rule ref="rulesets/java/ali-other.xml/AvoidNewDateGetTimeRule" deprecated="true" />
+<rule ref="rulesets/java/ali-other.xml/UseRightCaseForDateFormatRule" deprecated="true" />
+<rule ref="rulesets/java/ali-other.xml/AvoidDoubleOrFloatEqualCompareRule" deprecated="true" />
+<rule ref="rulesets/java/ali-set.xml/ClassCastExceptionWithToArrayRule" deprecated="true" />
+<rule ref="rulesets/java/ali-set.xml/UnsupportedExceptionWithModifyAsListRule" deprecated="true" />
+<rule ref="rulesets/java/ali-set.xml/ClassCastExceptionWithSubListToArrayListRule" deprecated="true" />
+<rule ref="rulesets/java/ali-set.xml/ConcurrentExceptionWithModifyOriginSubListRule" deprecated="true" />
+<rule ref="rulesets/java/ali-set.xml/DontModifyInForeachCircleRule" deprecated="true" />
+</ruleset>
